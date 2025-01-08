@@ -1,0 +1,360 @@
+Script started on 2025-01-06 06:25:11+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="30"]
+[?2004h]0;sunilkumar409@TIGER05994: /c/Users/sunil.chelliboin/desktop[01;32msunilkumar409@TIGER05994[00m:[01;34m/c/Users/sunil.chelliboin/desktop[00m$ cd my_project
+[?2004l[?2004h]0;sunilkumar409@TIGER05994: /c/Users/sunil.chelliboin/desktop/my_project[01;32msunilkumar409@TIGER05994[00m:[01;34m/c/Users/sunil.chelliboin/desktop/my_project[00m$ git iniy
+[?2004lgit: 'iniy' is not a git command. See 'git --help'.
+
+The most similar command is
+	init
+[?2004h]0;sunilkumar409@TIGER05994: /c/Users/sunil.chelliboin/desktop/my_project[01;32msunilkumar409@TIGER05994[00m:[01;34m/c/Users/sunil.chelliboin/desktop/my_project[00m$ git init
+[?2004l[33mhint: Using 'master' as the name for the initial branch. This default branch name[m
+[33mhint: is subject to change. To configure the initial branch name to use in all[m
+[33mhint: of your new repositories, which will suppress this warning, call:[m
+[33mhint: [m
+[33mhint: 	git config --global init.defaultBranch <name>[m
+[33mhint: [m
+[33mhint: Names commonly chosen instead of 'master' are 'main', 'trunk' and[m
+[33mhint: 'development'. The just-created branch can be renamed via this command:[m
+[33mhint: [m
+[33mhint: 	git branch -m <name>[m
+Initialized empty Git repository in /c/Users/sunil.chelliboin/desktop/my_project/.git/
+[?2004h]0;sunilkumar409@TIGER05994: /c/Users/sunil.chelliboin/desktop/my_project[01;32msunilkumar409@TIGER05994[00m:[01;34m/c/Users/sunil.chelliboin/desktop/my_project[00m$ git add *c
+[?2004lfatal: pathspec '*c' did not match any files
+[?2004h]0;sunilkumar409@TIGER05994: /c/Users/sunil.chelliboin/desktop/my_project[01;32msunilkumar409@TIGER05994[00m:[01;34m/c/Users/sunil.chelliboin/desktop/my_project[00m$ go[Kit add *C
+[?2004lfatal: pathspec '*C' did not match any files
+[?2004h]0;sunilkumar409@TIGER05994: /c/Users/sunil.chelliboin/desktop/my_project[01;32msunilkumar409@TIGER05994[00m:[01;34m/c/Users/sunil.chelliboin/desktop/my_project[00m$ fir [K[K[K[Kgit aa[Kdd *.c
+[?2004lfatal: pathspec '*.c' did not match any files
+[?2004h]0;sunilkumar409@TIGER05994: /c/Users/sunil.chelliboin/desktop/my_project[01;32msunilkumar409@TIGER05994[00m:[01;34m/c/Users/sunil.chelliboin/desktop/my_project[00m$ git add LICENSE
+[?2004lfatal: pathspec 'LICENSE' did not match any files
+[?2004h]0;sunilkumar409@TIGER05994: /c/Users/sunil.chelliboin/desktop/my_project[01;32msunilkumar409@TIGER05994[00m:[01;34m/c/Users/sunil.chelliboin/desktop/my_project[00m$ [7mgit clone https://github.com/libgit2/libgit2[27mgit clone https://github.com/libgit2/libgit2
+[?2004lCloning into 'libgit2'...
+remote: Enumerating objects: 128573, done.[K
+remote: Counting objects:   0% (1/128573)[Kremote: Counting objects:   1% (1286/128573)[Kremote: Counting objects:   2% (2572/128573)[Kremote: Counting objects:   3% (3858/128573)[Kremote: Counting objects:   4% (5143/128573)[Kremote: Counting objects:   5% (6429/128573)[Kremote: Counting objects:   6% (7715/128573)[Kremote: Counting objects:   7% (9001/128573)[Kremote: Counting objects:   8% (10286/128573)[Kremote: Counting objects:   9% (11572/128573)[Kremote: Counting objects:  10% (12858/128573)[Kremote: Counting objects:  11% (14144/128573)[Kremote: Counting objects:  12% (15429/128573)[Kremote: Counting objects:  13% (16715/128573)[Kremote: Counting objects:  14% (18001/128573)[Kremote: Counting objects:  15% (19286/128573)[Kremote: Counting objects:  16% (20572/128573)[Kremote: Counting objects:  17% (21858/128573)[Kremote: Counting objects:  18% (23144/128573)[Kremote: Counting objects:  19% (24429/128573)[Kremote: Counting objects:  20% (25715/128573)[Kremote: Counting objects:  21% (27001/128573)[Kremote: Counting objects:  22% (28287/128573)[Kremote: Counting objects:  23% (29572/128573)[Kremote: Counting objects:  24% (30858/128573)[Kremote: Counting objects:  25% (32144/128573)[Kremote: Counting objects:  26% (33429/128573)[Kremote: Counting objects:  27% (34715/128573)[Kremote: Counting objects:  28% (36001/128573)[Kremote: Counting objects:  29% (37287/128573)[Kremote: Counting objects:  30% (38572/128573)[Kremote: Counting objects:  31% (39858/128573)[Kremote: Counting objects:  32% (41144/128573)[Kremote: Counting objects:  33% (42430/128573)[Kremote: Counting objects:  34% (43715/128573)[Kremote: Counting objects:  35% (45001/128573)[Kremote: Counting objects:  36% (46287/128573)[Kremote: Counting objects:  37% (47573/128573)[Kremote: Counting objects:  38% (48858/128573)[Kremote: Counting objects:  39% (50144/128573)[Kremote: Counting objects:  40% (51430/128573)[Kremote: Counting objects:  41% (52715/128573)[Kremote: Counting objects:  42% (54001/128573)[Kremote: Counting objects:  43% (55287/128573)[Kremote: Counting objects:  44% (56573/128573)[Kremote: Counting objects:  45% (57858/128573)[Kremote: Counting objects:  46% (59144/128573)[Kremote: Counting objects:  47% (60430/128573)[Kremote: Counting objects:  48% (61716/128573)[Kremote: Counting objects:  49% (63001/128573)[Kremote: Counting objects:  50% (64287/128573)[Kremote: Counting objects:  51% (65573/128573)[Kremote: Counting objects:  52% (66858/128573)[Kremote: Counting objects:  53% (68144/128573)[Kremote: Counting objects:  54% (69430/128573)[Kremote: Counting objects:  55% (70716/128573)[Kremote: Counting objects:  56% (72001/128573)[Kremote: Counting objects:  57% (73287/128573)[Kremote: Counting objects:  58% (74573/128573)[Kremote: Counting objects:  59% (75859/128573)[Kremote: Counting objects:  60% (77144/128573)[Kremote: Counting objects:  61% (78430/128573)[Kremote: Counting objects:  62% (79716/128573)[Kremote: Counting objects:  63% (81001/128573)[Kremote: Counting objects:  64% (82287/128573)[Kremote: Counting objects:  65% (83573/128573)[Kremote: Counting objects:  66% (84859/128573)[Kremote: Counting objects:  67% (86144/128573)[Kremote: Counting objects:  68% (87430/128573)[Kremote: Counting objects:  69% (88716/128573)[Kremote: Counting objects:  70% (90002/128573)[Kremote: Counting objects:  71% (91287/128573)[Kremote: Counting objects:  72% (92573/128573)[Kremote: Counting objects:  73% (93859/128573)[Kremote: Counting objects:  74% (95145/128573)[Kremote: Counting objects:  75% (96430/128573)[Kremote: Counting objects:  76% (97716/128573)[Kremote: Counting objects:  77% (99002/128573)[Kremote: Counting objects:  78% (100287/128573)[Kremote: Counting objects:  79% (101573/128573)[Kremote: Counting objects:  80% (102859/128573)[Kremote: Counting objects:  81% (104145/128573)[Kremote: Counting objects:  82% (105430/128573)[Kremote: Counting objects:  83% (106716/128573)[Kremote: Counting objects:  84% (108002/128573)[Kremote: Counting objects:  85% (109288/128573)[Kremote: Counting objects:  86% (110573/128573)[Kremote: Counting objects:  87% (111859/128573)[Kremote: Counting objects:  88% (113145/128573)[Kremote: Counting objects:  89% (114430/128573)[Kremote: Counting objects:  90% (115716/128573)[Kremote: Counting objects:  91% (117002/128573)[Kremote: Counting objects:  92% (118288/128573)[Kremote: Counting objects:  93% (119573/128573)[Kremote: Counting objects:  94% (120859/128573)[Kremote: Counting objects:  95% (122145/128573)[Kremote: Counting objects:  96% (123431/128573)[Kremote: Counting objects:  97% (124716/128573)[Kremote: Counting objects:  98% (126002/128573)[Kremote: Counting objects:  99% (127288/128573)[Kremote: Counting objects: 100% (128573/128573)[Kremote: Counting objects: 100% (128573/128573), done.[K
+remote: Compressing objects:   0% (1/35504)[Kremote: Compressing objects:   1% (356/35504)[Kremote: Compressing objects:   2% (711/35504)[Kremote: Compressing objects:   3% (1066/35504)[Kremote: Compressing objects:   4% (1421/35504)[Kremote: Compressing objects:   5% (1776/35504)[Kremote: Compressing objects:   6% (2131/35504)[Kremote: Compressing objects:   7% (2486/35504)[Kremote: Compressing objects:   8% (2841/35504)[Kremote: Compressing objects:   9% (3196/35504)[Kremote: Compressing objects:  10% (3551/35504)[Kremote: Compressing objects:  11% (3906/35504)[Kremote: Compressing objects:  12% (4261/35504)[Kremote: Compressing objects:  13% (4616/35504)[Kremote: Compressing objects:  14% (4971/35504)[Kremote: Compressing objects:  15% (5326/35504)[Kremote: Compressing objects:  16% (5681/35504)[Kremote: Compressing objects:  17% (6036/35504)[Kremote: Compressing objects:  18% (6391/35504)[Kremote: Compressing objects:  19% (6746/35504)[Kremote: Compressing objects:  20% (7101/35504)[Kremote: Compressing objects:  21% (7456/35504)[Kremote: Compressing objects:  22% (7811/35504)[Kremote: Compressing objects:  23% (8166/35504)[Kremote: Compressing objects:  24% (8521/35504)[Kremote: Compressing objects:  25% (8876/35504)[Kremote: Compressing objects:  26% (9232/35504)[Kremote: Compressing objects:  27% (9587/35504)[Kremote: Compressing objects:  28% (9942/35504)[Kremote: Compressing objects:  29% (10297/35504)[Kremote: Compressing objects:  30% (10652/35504)[Kremote: Compressing objects:  31% (11007/35504)[Kremote: Compressing objects:  32% (11362/35504)[Kremote: Compressing objects:  33% (11717/35504)[Kremote: Compressing objects:  34% (12072/35504)[Kremote: Compressing objects:  35% (12427/35504)[Kremote: Compressing objects:  36% (12782/35504)[Kremote: Compressing objects:  37% (13137/35504)[Kremote: Compressing objects:  38% (13492/35504)[Kremote: Compressing objects:  39% (13847/35504)[Kremote: Compressing objects:  40% (14202/35504)[Kremote: Compressing objects:  41% (14557/35504)[Kremote: Compressing objects:  42% (14912/35504)[Kremote: Compressing objects:  43% (15267/35504)[Kremote: Compressing objects:  44% (15622/35504)[Kremote: Compressing objects:  45% (15977/35504)[Kremote: Compressing objects:  46% (16332/35504)[Kremote: Compressing objects:  47% (16687/35504)[Kremote: Compressing objects:  48% (17042/35504)[Kremote: Compressing objects:  49% (17397/35504)[Kremote: Compressing objects:  50% (17752/35504)[Kremote: Compressing objects:  51% (18108/35504)[Kremote: Compressing objects:  52% (18463/35504)[Kremote: Compressing objects:  53% (18818/35504)[Kremote: Compressing objects:  54% (19173/35504)[Kremote: Compressing objects:  55% (19528/35504)[Kremote: Compressing objects:  56% (19883/35504)[Kremote: Compressing objects:  57% (20238/35504)[Kremote: Compressing objects:  58% (20593/35504)[Kremote: Compressing objects:  59% (20948/35504)[Kremote: Compressing objects:  60% (21303/35504)[Kremote: Compressing objects:  61% (21658/35504)[Kremote: Compressing objects:  62% (22013/35504)[Kremote: Compressing objects:  63% (22368/35504)[Kremote: Compressing objects:  64% (22723/35504)[Kremote: Compressing objects:  65% (23078/35504)[Kremote: Compressing objects:  66% (23433/35504)[Kremote: Compressing objects:  67% (23788/35504)[Kremote: Compressing objects:  68% (24143/35504)[Kremote: Compressing objects:  69% (24498/35504)[Kremote: Compressing objects:  70% (24853/35504)[Kremote: Compressing objects:  71% (25208/35504)[Kremote: Compressing objects:  72% (25563/35504)[Kremote: Compressing objects:  73% (25918/35504)[Kremote: Compressing objects:  74% (26273/35504)[Kremote: Compressing objects:  75% (26628/35504)[Kremote: Compressing objects:  76% (26984/35504)[Kremote: Compressing objects:  77% (27339/35504)[Kremote: Compressing objects:  78% (27694/35504)[Kremote: Compressing objects:  79% (28049/35504)[Kremote: Compressing objects:  80% (28404/35504)[Kremote: Compressing objects:  81% (28759/35504)[Kremote: Compressing objects:  82% (29114/35504)[Kremote: Compressing objects:  83% (29469/35504)[Kremote: Compressing objects:  84% (29824/35504)[Kremote: Compressing objects:  85% (30179/35504)[Kremote: Compressing objects:  86% (30534/35504)[Kremote: Compressing objects:  87% (30889/35504)[Kremote: Compressing objects:  88% (31244/35504)[Kremote: Compressing objects:  89% (31599/35504)[Kremote: Compressing objects:  90% (31954/35504)[Kremote: Compressing objects:  91% (32309/35504)[Kremote: Compressing objects:  92% (32664/35504)[Kremote: Compressing objects:  93% (33019/35504)[Kremote: Compressing objects:  94% (33374/35504)[Kremote: Compressing objects:  95% (33729/35504)[Kremote: Compressing objects:  96% (34084/35504)[Kremote: Compressing objects:  97% (34439/35504)[Kremote: Compressing objects:  98% (34794/35504)[Kremote: Compressing objects:  99% (35149/35504)[Kremote: Compressing objects: 100% (35504/35504)[Kremote: Compressing objects: 100% (35504/35504), done.[K
+Receiving objects:   0% (1/128573)Receiving objects:   1% (1286/128573), 124.00 KiB | 227.00 KiB/sReceiving objects:   1% (1720/128573), 124.00 KiB | 227.00 KiB/sReceiving objects:   2% (2572/128573), 620.00 KiB | 603.00 KiB/sReceiving objects:   3% (3858/128573), 620.00 KiB | 603.00 KiB/sReceiving objects:   4% (5143/128573), 620.00 KiB | 603.00 KiB/sReceiving objects:   5% (6429/128573), 2.07 MiB | 1.36 MiB/s    Receiving objects:   6% (7715/128573), 2.07 MiB | 1.36 MiB/sReceiving objects:   7% (9001/128573), 2.07 MiB | 1.36 MiB/sReceiving objects:   8% (10286/128573), 2.07 MiB | 1.36 MiB/sReceiving objects:   9% (11572/128573), 2.07 MiB | 1.36 MiB/sReceiving objects:   9% (11728/128573), 2.07 MiB | 1.36 MiB/sReceiving objects:  10% (12858/128573), 3.81 MiB | 1.89 MiB/sReceiving objects:  11% (14144/128573), 3.81 MiB | 1.89 MiB/sReceiving objects:  12% (15429/128573), 3.81 MiB | 1.89 MiB/sReceiving objects:  13% (16715/128573), 3.81 MiB | 1.89 MiB/sReceiving objects:  14% (18001/128573), 3.81 MiB | 1.89 MiB/sReceiving objects:  15% (19286/128573), 3.81 MiB | 1.89 MiB/sReceiving objects:  16% (20572/128573), 3.81 MiB | 1.89 MiB/sReceiving objects:  17% (21858/128573), 5.78 MiB | 2.29 MiB/sReceiving objects:  18% (23144/128573), 5.78 MiB | 2.29 MiB/sReceiving objects:  19% (24429/128573), 5.78 MiB | 2.29 MiB/sReceiving objects:  20% (25715/128573), 5.78 MiB | 2.29 MiB/sReceiving objects:  21% (27001/128573), 5.78 MiB | 2.29 MiB/sReceiving objects:  22% (28287/128573), 5.78 MiB | 2.29 MiB/sReceiving objects:  22% (29131/128573), 5.78 MiB | 2.29 MiB/sReceiving objects:  23% (29572/128573), 7.86 MiB | 2.60 MiB/sReceiving objects:  24% (30858/128573), 7.86 MiB | 2.60 MiB/sReceiving objects:  25% (32144/128573), 7.86 MiB | 2.60 MiB/sReceiving objects:  26% (33429/128573), 10.32 MiB | 2.93 MiB/sReceiving objects:  27% (34715/128573), 10.32 MiB | 2.93 MiB/sReceiving objects:  28% (36001/128573), 10.32 MiB | 2.93 MiB/sReceiving objects:  28% (36282/128573), 10.32 MiB | 2.93 MiB/sReceiving objects:  29% (37287/128573), 12.87 MiB | 3.20 MiB/sReceiving objects:  30% (38572/128573), 12.87 MiB | 3.20 MiB/sReceiving objects:  31% (39858/128573), 12.87 MiB | 3.20 MiB/sReceiving objects:  32% (41144/128573), 15.68 MiB | 3.46 MiB/sReceiving objects:  33% (42430/128573), 15.68 MiB | 3.46 MiB/sReceiving objects:  34% (43715/128573), 15.68 MiB | 3.46 MiB/sReceiving objects:  35% (45001/128573), 15.68 MiB | 3.46 MiB/sReceiving objects:  35% (45113/128573), 15.68 MiB | 3.46 MiB/sReceiving objects:  36% (46287/128573), 17.90 MiB | 3.94 MiB/sReceiving objects:  37% (47573/128573), 17.90 MiB | 3.94 MiB/sReceiving objects:  37% (48662/128573), 20.05 MiB | 4.31 MiB/sReceiving objects:  38% (48858/128573), 20.93 MiB | 4.17 MiB/sReceiving objects:  39% (50144/128573), 20.93 MiB | 4.17 MiB/sReceiving objects:  39% (50209/128573), 21.89 MiB | 3.94 MiB/sReceiving objects:  39% (50257/128573), 23.32 MiB | 3.37 MiB/sReceiving objects:  39% (50328/128573), 24.65 MiB | 2.56 MiB/sReceiving objects:  39% (50799/128573), 26.60 MiB | 1.88 MiB/sReceiving objects:  40% (51430/128573), 28.39 MiB | 1.62 MiB/sReceiving objects:  40% (51679/128573), 28.39 MiB | 1.62 MiB/sReceiving objects:  41% (52715/128573), 30.66 MiB | 1.79 MiB/sReceiving objects:  42% (54001/128573), 30.66 MiB | 1.79 MiB/sReceiving objects:  42% (54120/128573), 30.66 MiB | 1.79 MiB/sReceiving objects:  43% (55287/128573), 32.16 MiB | 1.94 MiB/sReceiving objects:  44% (56573/128573), 32.16 MiB | 1.94 MiB/sReceiving objects:  44% (57106/128573), 33.84 MiB | 2.17 MiB/sReceiving objects:  44% (57461/128573), 35.65 MiB | 2.24 MiB/sReceiving objects:  45% (57858/128573), 37.60 MiB | 2.21 MiB/sReceiving objects:  45% (58103/128573), 37.60 MiB | 2.21 MiB/sReceiving objects:  46% (59144/128573), 37.60 MiB | 2.21 MiB/sReceiving objects:  47% (60430/128573), 38.45 MiB | 2.21 MiB/sReceiving objects:  48% (61716/128573), 38.45 MiB | 2.21 MiB/sReceiving objects:  48% (62912/128573), 39.02 MiB | 2.10 MiB/sReceiving objects:  49% (63001/128573), 39.02 MiB | 2.10 MiB/sReceiving objects:  49% (64194/128573), 40.18 MiB | 1.76 MiB/sReceiving objects:  50% (64287/128573), 40.18 MiB | 1.76 MiB/sReceiving objects:  51% (65573/128573), 40.77 MiB | 1.52 MiB/sReceiving objects:  51% (66017/128573), 41.98 MiB | 1.39 MiB/sReceiving objects:  52% (66858/128573), 42.87 MiB | 1.39 MiB/sReceiving objects:  52% (66861/128573), 42.87 MiB | 1.39 MiB/sReceiving objects:  53% (68144/128573), 42.87 MiB | 1.39 MiB/sReceiving objects:  54% (69430/128573), 42.87 MiB | 1.39 MiB/sReceiving objects:  55% (70716/128573), 43.86 MiB | 1.35 MiB/sReceiving objects:  55% (71660/128573), 44.37 MiB | 1.28 MiB/sReceiving objects:  56% (72001/128573), 44.94 MiB | 1.28 MiB/sReceiving objects:  57% (73287/128573), 44.94 MiB | 1.28 MiB/sReceiving objects:  58% (74573/128573), 44.94 MiB | 1.28 MiB/sReceiving objects:  58% (75463/128573), 45.70 MiB | 1.31 MiB/sReceiving objects:  59% (75859/128573), 45.70 MiB | 1.31 MiB/sReceiving objects:  60% (77144/128573), 45.70 MiB | 1.31 MiB/sReceiving objects:  61% (78430/128573), 46.68 MiB | 1.41 MiB/sReceiving objects:  62% (79716/128573), 46.68 MiB | 1.41 MiB/sReceiving objects:  63% (81001/128573), 46.68 MiB | 1.41 MiB/sReceiving objects:  64% (82287/128573), 46.68 MiB | 1.41 MiB/sReceiving objects:  64% (83153/128573), 47.69 MiB | 1.50 MiB/sReceiving objects:  64% (83213/128573), 49.29 MiB | 1.59 MiB/sReceiving objects:  64% (83276/128573), 50.60 MiB | 1.48 MiB/sReceiving objects:  64% (83295/128573), 52.32 MiB | 1.63 MiB/sReceiving objects:  64% (83405/128573), 54.11 MiB | 1.62 MiB/sReceiving objects:  65% (83573/128573), 54.11 MiB | 1.62 MiB/sReceiving objects:  66% (84859/128573), 55.50 MiB | 1.71 MiB/sReceiving objects:  67% (86144/128573), 55.50 MiB | 1.71 MiB/sReceiving objects:  68% (87430/128573), 55.50 MiB | 1.71 MiB/sReceiving objects:  69% (88716/128573), 55.50 MiB | 1.71 MiB/sReceiving objects:  69% (89949/128573), 57.15 MiB | 1.92 MiB/sReceiving objects:  70% (90002/128573), 57.15 MiB | 1.92 MiB/sReceiving objects:  71% (91287/128573), 57.15 MiB | 1.92 MiB/sReceiving objects:  72% (92573/128573), 58.77 MiB | 2.06 MiB/sReceiving objects:  73% (93859/128573), 58.77 MiB | 2.06 MiB/sReceiving objects:  73% (94207/128573), 59.78 MiB | 2.14 MiB/sReceiving objects:  74% (95145/128573), 59.78 MiB | 2.14 MiB/sReceiving objects:  75% (96430/128573), 59.78 MiB | 2.14 MiB/sReceiving objects:  76% (97716/128573), 61.00 MiB | 2.27 MiB/sReceiving objects:  77% (99002/128573), 61.00 MiB | 2.27 MiB/sReceiving objects:  78% (100287/128573), 61.00 MiB | 2.27 MiB/sReceiving objects:  79% (101573/128573), 62.45 MiB | 2.39 MiB/sReceiving objects:  79% (101906/128573), 62.45 MiB | 2.39 MiB/sReceiving objects:  80% (102859/128573), 62.45 MiB | 2.39 MiB/sReceiving objects:  81% (104145/128573), 62.45 MiB | 2.39 MiB/sReceiving objects:  82% (105430/128573), 62.45 MiB | 2.39 MiB/sReceiving objects:  83% (106716/128573), 63.65 MiB | 2.47 MiB/sReceiving objects:  84% (108002/128573), 63.65 MiB | 2.47 MiB/sReceiving objects:  85% (109288/128573), 63.65 MiB | 2.47 MiB/sReceiving objects:  86% (110573/128573), 63.65 MiB | 2.47 MiB/sReceiving objects:  86% (111324/128573), 65.00 MiB | 2.60 MiB/sReceiving objects:  87% (111859/128573), 65.00 MiB | 2.60 MiB/sReceiving objects:  88% (113145/128573), 65.00 MiB | 2.60 MiB/sReceiving objects:  89% (114430/128573), 65.84 MiB | 2.59 MiB/sReceiving objects:  90% (115716/128573), 65.84 MiB | 2.59 MiB/sReceiving objects:  91% (117002/128573), 65.84 MiB | 2.59 MiB/sReceiving objects:  91% (117218/128573), 66.53 MiB | 2.43 MiB/sReceiving objects:  92% (118288/128573), 66.53 MiB | 2.43 MiB/sReceiving objects:  93% (119573/128573), 66.53 MiB | 2.43 MiB/sReceiving objects:  94% (120859/128573), 66.53 MiB | 2.43 MiB/sReceiving objects:  95% (122145/128573), 67.36 MiB | 2.25 MiB/sReceiving objects:  96% (123431/128573), 67.36 MiB | 2.25 MiB/sReceiving objects:  96% (124050/128573), 67.78 MiB | 1.99 MiB/sReceiving objects:  97% (124716/128573), 67.78 MiB | 1.99 MiB/sReceiving objects:  98% (126002/128573), 67.78 MiB | 1.99 MiB/sReceiving objects:  99% (127288/128573), 68.61 MiB | 1.95 MiB/sremote: Total 128573 (delta 91738), reused 127761 (delta 90976), pack-reused 0 (from 0)[K
+Receiving objects: 100% (128573/128573), 68.61 MiB | 1.95 MiB/sReceiving objects: 100% (128573/128573), 69.28 MiB | 2.10 MiB/s, done.
+Resolving deltas:   0% (0/91738)Resolving deltas:   1% (920/91738)Resolving deltas:   2% (1835/91738)Resolving deltas:   3% (2753/91738)Resolving deltas:   4% (3671/91738)Resolving deltas:   5% (4592/91738)Resolving deltas:   6% (5505/91738)Resolving deltas:   7% (6423/91738)Resolving deltas:   8% (7341/91738)Resolving deltas:   8% (7662/91738)Resolving deltas:   9% (8257/91738)Resolving deltas:  10% (9175/91738)Resolving deltas:  11% (10092/91738)Resolving deltas:  12% (11010/91738)Resolving deltas:  13% (11928/91738)Resolving deltas:  14% (12844/91738)Resolving deltas:  15% (13762/91738)Resolving deltas:  16% (14679/91738)Resolving deltas:  16% (15250/91738)Resolving deltas:  17% (15596/91738)Resolving deltas:  18% (16517/91738)Resolving deltas:  19% (17431/91738)Resolving deltas:  20% (18348/91738)Resolving deltas:  21% (19269/91738)Resolving deltas:  22% (20184/91738)Resolving deltas:  23% (21102/91738)Resolving deltas:  24% (22020/91738)Resolving deltas:  25% (22935/91738)Resolving deltas:  25% (23097/91738)Resolving deltas:  26% (23853/91738)Resolving deltas:  27% (24770/91738)Resolving deltas:  28% (25687/91738)Resolving deltas:  29% (26605/91738)Resolving deltas:  30% (27523/91738)Resolving deltas:  31% (28439/91738)Resolving deltas:  32% (29359/91738)Resolving deltas:  33% (30274/91738)Resolving deltas:  34% (31192/91738)Resolving deltas:  34% (31497/91738)Resolving deltas:  35% (32111/91738)Resolving deltas:  36% (33026/91738)Resolving deltas:  37% (33944/91738)Resolving deltas:  38% (34862/91738)Resolving deltas:  39% (35779/91738)Resolving deltas:  40% (36697/91738)Resolving deltas:  41% (37614/91738)Resolving deltas:  42% (38530/91738)Resolving deltas:  43% (39448/91738)Resolving deltas:  43% (39683/91738)Resolving deltas:  44% (40365/91738)Resolving deltas:  45% (41284/91738)Resolving deltas:  46% (42200/91738)Resolving deltas:  47% (43117/91738)Resolving deltas:  48% (44035/91738)Resolving deltas:  49% (44952/91738)Resolving deltas:  50% (45871/91738)Resolving deltas:  51% (46787/91738)Resolving deltas:  51% (46893/91738)Resolving deltas:  52% (47704/91738)Resolving deltas:  53% (48622/91738)Resolving deltas:  54% (49540/91738)Resolving deltas:  55% (50456/91738)Resolving deltas:  56% (51374/91738)Resolving deltas:  57% (52291/91738)Resolving deltas:  58% (53209/91738)Resolving deltas:  58% (54081/91738)Resolving deltas:  59% (54128/91738)Resolving deltas:  60% (55043/91738)Resolving deltas:  61% (55962/91738)Resolving deltas:  62% (56878/91738)Resolving deltas:  63% (57796/91738)Resolving deltas:  64% (58713/91738)Resolving deltas:  65% (59631/91738)Resolving deltas:  66% (60548/91738)Resolving deltas:  66% (61323/91738)Resolving deltas:  67% (61465/91738)Resolving deltas:  68% (62383/91738)Resolving deltas:  69% (63300/91738)Resolving deltas:  70% (64217/91738)Resolving deltas:  71% (65134/91738)Resolving deltas:  72% (66052/91738)Resolving deltas:  73% (66970/91738)Resolving deltas:  73% (66984/91738)Resolving deltas:  74% (67887/91738)Resolving deltas:  75% (68804/91738)Resolving deltas:  76% (69721/91738)Resolving deltas:  77% (70643/91738)Resolving deltas:  78% (71556/91738)Resolving deltas:  79% (72476/91738)Resolving deltas:  79% (72968/91738)Resolving deltas:  80% (73391/91738)Resolving deltas:  81% (74308/91738)Resolving deltas:  82% (75226/91738)Resolving deltas:  83% (76143/91738)Resolving deltas:  84% (77060/91738)Resolving deltas:  85% (77980/91738)Resolving deltas:  86% (78895/91738)Resolving deltas:  86% (79068/91738)Resolving deltas:  87% (79813/91738)Resolving deltas:  88% (80733/91738)Resolving deltas:  89% (81647/91738)Resolving deltas:  90% (82567/91738)Resolving deltas:  91% (83484/91738)Resolving deltas:  92% (84399/91738)Resolving deltas:  93% (85317/91738)Resolving deltas:  94% (86236/91738)Resolving deltas:  94% (86248/91738)Resolving deltas:  95% (87154/91738)Resolving deltas:  96% (88069/91738)Resolving deltas:  97% (88987/91738)Resolving deltas:  98% (89904/91738)Resolving deltas:  99% (90821/91738)Resolving deltas: 100% (91738/91738)Resolving deltas: 100% (91738/91738), done.
+Updating files:   1% (139/11897)Updating files:   2% (238/11897)Updating files:   2% (265/11897)Updating files:   3% (357/11897)Updating files:   3% (388/11897)Updating files:   4% (476/11897)Updating files:   4% (503/11897)Updating files:   5% (595/11897)Updating files:   5% (615/11897)Updating files:   6% (714/11897)Updating files:   6% (725/11897)Updating files:   6% (828/11897)Updating files:   7% (833/11897)Updating files:   7% (939/11897)Updating files:   8% (952/11897)Updating files:   8% (1044/11897)Updating files:   9% (1071/11897)Updating files:   9% (1149/11897)Updating files:  10% (1190/11897)Updating files:  10% (1259/11897)Updating files:  11% (1309/11897)Updating files:  11% (1370/11897)Updating files:  12% (1428/11897)Updating files:  12% (1480/11897)Updating files:  13% (1547/11897)Updating files:  13% (1597/11897)Updating files:  14% (1666/11897)Updating files:  14% (1716/11897)Updating files:  15% (1785/11897)Updating files:  15% (1839/11897)Updating files:  16% (1904/11897)Updating files:  16% (1954/11897)Updating files:  17% (2023/11897)Updating files:  17% (2065/11897)Updating files:  18% (2142/11897)Updating files:  18% (2163/11897)Updating files:  18% (2259/11897)Updating files:  19% (2261/11897)Updating files:  19% (2345/11897)Updating files:  20% (2380/11897)Updating files:  20% (2445/11897)Updating files:  21% (2499/11897)Updating files:  21% (2533/11897)Updating files:  21% (2577/11897)Updating files:  22% (2618/11897)Updating files:  22% (2642/11897)Updating files:  22% (2692/11897)Updating files:  23% (2737/11897)Updating files:  23% (2742/11897)Updating files:  23% (2788/11897)Updating files:  23% (2853/11897)Updating files:  24% (2856/11897)Updating files:  24% (2901/11897)Updating files:  24% (2949/11897)Updating files:  25% (2975/11897)Updating files:  25% (3006/11897)Updating files:  26% (3094/11897)Updating files:  26% (3101/11897)Updating files:  26% (3191/11897)Updating files:  27% (3213/11897)Updating files:  27% (3269/11897)Updating files:  28% (3332/11897)Updating files:  28% (3352/11897)Updating files:  28% (3441/11897)Updating files:  29% (3451/11897)Updating files:  29% (3530/11897)Updating files:  30% (3570/11897)Updating files:  30% (3614/11897)Updating files:  31% (3689/11897)Updating files:  31% (3702/11897)Updating files:  31% (3793/11897)Updating files:  32% (3808/11897)Updating files:  32% (3888/11897)Updating files:  33% (3927/11897)Updating files:  33% (3972/11897)Updating files:  34% (4045/11897)Updating files:  34% (4060/11897)Updating files:  34% (4153/11897)Updating files:  35% (4164/11897)Updating files:  35% (4244/11897)Updating files:  36% (4283/11897)Updating files:  36% (4330/11897)Updating files:  37% (4402/11897)Updating files:  37% (4416/11897)Updating files:  37% (4508/11897)Updating files:  38% (4521/11897)Updating files:  38% (4610/11897)Updating files:  39% (4640/11897)Updating files:  39% (4692/11897)Updating files:  40% (4759/11897)Updating files:  40% (4774/11897)Updating files:  40% (4867/11897)Updating files:  41% (4878/11897)Updating files:  41% (4959/11897)Updating files:  42% (4997/11897)Updating files:  42% (5043/11897)Updating files:  43% (5116/11897)Updating files:  43% (5128/11897)Updating files:  43% (5219/11897)Updating files:  44% (5235/11897)Updating files:  44% (5310/11897)Updating files:  45% (5354/11897)Updating files:  45% (5398/11897)Updating files:  46% (5473/11897)Updating files:  46% (5483/11897)Updating files:  46% (5567/11897)Updating files:  47% (5592/11897)Updating files:  47% (5652/11897)Updating files:  48% (5711/11897)Updating files:  48% (5732/11897)Updating files:  48% (5810/11897)Updating files:  49% (5830/11897)Updating files:  49% (5890/11897)Updating files:  50% (5949/11897)Updating files:  50% (5972/11897)Updating files:  50% (6049/11897)Updating files:  51% (6068/11897)Updating files:  51% (6124/11897)Updating files:  52% (6187/11897)Updating files:  52% (6205/11897)Updating files:  52% (6287/11897)Updating files:  53% (6306/11897)Updating files:  53% (6370/11897)Updating files:  54% (6425/11897)Updating files:  54% (6453/11897)Updating files:  54% (6535/11897)Updating files:  55% (6544/11897)Updating files:  55% (6620/11897)Updating files:  56% (6663/11897)Updating files:  56% (6703/11897)Updating files:  57% (6782/11897)Updating files:  57% (6785/11897)Updating files:  57% (6871/11897)Updating files:  58% (6901/11897)Updating files:  58% (6962/11897)Updating files:  59% (7020/11897)Updating files:  59% (7057/11897)Updating files:  60% (7139/11897)Updating files:  60% (7146/11897)Updating files:  60% (7227/11897)Updating files:  61% (7258/11897)Updating files:  61% (7310/11897)Updating files:  62% (7377/11897)Updating files:  62% (7393/11897)Updating files:  62% (7471/11897)Updating files:  63% (7496/11897)Updating files:  63% (7554/11897)Updating files:  64% (7615/11897)Updating files:  64% (7638/11897)Updating files:  64% (7723/11897)Updating files:  65% (7734/11897)Updating files:  65% (7803/11897)Updating files:  66% (7853/11897)Updating files:  66% (7885/11897)Updating files:  66% (7967/11897)Updating files:  67% (7971/11897)Updating files:  67% (8055/11897)Updating files:  68% (8090/11897)Updating files:  68% (8133/11897)Updating files:  69% (8209/11897)Updating files:  69% (8212/11897)Updating files:  69% (8296/11897)Updating files:  70% (8328/11897)Updating files:  70% (8382/11897)Updating files:  71% (8447/11897)Updating files:  71% (8463/11897)Updating files:  71% (8510/11897)Updating files:  71% (8559/11897)Updating files:  72% (8566/11897)Updating files:  72% (8603/11897)Updating files:  72% (8646/11897)Updating files:  73% (8685/11897)Updating files:  73% (8700/11897)Updating files:  73% (8749/11897)Updating files:  74% (8804/11897)Updating files:  74% (8806/11897)Updating files:  74% (8852/11897)Updating files:  74% (8895/11897)Updating files:  75% (8923/11897)Updating files:  75% (8944/11897)Updating files:  75% (8988/11897)Updating files:  75% (9034/11897)Updating files:  76% (9042/11897)Updating files:  76% (9084/11897)Updating files:  76% (9138/11897)Updating files:  77% (9161/11897)Updating files:  77% (9203/11897)Updating files:  77% (9245/11897)Updating files:  78% (9280/11897)Updating files:  78% (9297/11897)Updating files:  78% (9346/11897)Updating files:  78% (9395/11897)Updating files:  79% (9399/11897)Updating files:  79% (9442/11897)Updating files:  79% (9491/11897)Updating files:  80% (9518/11897)Updating files:  80% (9540/11897)Updating files:  80% (9587/11897)Updating files:  81% (9637/11897)Updating files:  81% (9658/11897)Updating files:  81% (9704/11897)Updating files:  81% (9752/11897)Updating files:  82% (9756/11897)Updating files:  82% (9795/11897)Updating files:  82% (9839/11897)Updating files:  83% (9875/11897)Updating files:  83% (9881/11897)Updating files:  83% (9946/11897)Updating files:  84% (9994/11897)Updating files:  84% (9996/11897)Updating files:  84% (10029/11897)Updating files:  84% (10063/11897)Updating files:  85% (10113/11897)Updating files:  85% (10120/11897)Updating files:  85% (10168/11897)Updating files:  85% (10210/11897)Updating files:  86% (10232/11897)Updating files:  86% (10252/11897)Updating files:  86% (10305/11897)Updating files:  86% (10349/11897)Updating files:  87% (10351/11897)Updating files:  87% (10398/11897)Updating files:  87% (10455/11897)Updating files:  88% (10470/11897)Updating files:  88% (10503/11897)Updating files:  88% (10557/11897)Updating files:  88% (10588/11897)Updating files:  89% (10589/11897)Updating files:  89% (10624/11897)Updating files:  89% (10656/11897)Updating files:  89% (10687/11897)Updating files:  90% (10708/11897)Updating files:  90% (10720/11897)Updating files:  90% (10776/11897)Updating files:  90% (10818/11897)Updating files:  91% (10827/11897)Updating files:  91% (10851/11897)Updating files:  91% (10889/11897)Updating files:  91% (10921/11897)Updating files:  92% (10946/11897)Updating files:  92% (10954/11897)Updating files:  92% (10988/11897)Updating files:  92% (11047/11897)Updating files:  93% (11065/11897)Updating files:  93% (11096/11897)Updating files:  93% (11136/11897)Updating files:  94% (11184/11897)Updating files:  94% (11190/11897)Updating files:  94% (11238/11897)Updating files:  94% (11292/11897)Updating files:  95% (11303/11897)Updating files:  95% (11336/11897)Updating files:  95% (11388/11897)Updating files:  96% (11422/11897)Updating files:  96% (11434/11897)Updating files:  96% (11490/11897)Updating files:  97% (11541/11897)Updating files:  97% (11553/11897)Updating files:  97% (11593/11897)Updating files:  97% (11638/11897)Updating files:  98% (11660/11897)Updating files:  98% (11684/11897)Updating files:  98% (11721/11897)Updating files:  98% (11756/11897)Updating files:  99% (11779/11897)Updating files:  99% (11804/11897)Updating files:  99% (11880/11897)Updating files: 100% (11897/11897)Updating files: 100% (11897/11897), done.
+[?2004h]0;sunilkumar409@TIGER05994: /c/Users/sunil.chelliboin/desktop/my_project[01;32msunilkumar409@TIGER05994[00m:[01;34m/c/Users/sunil.chelliboin/desktop/my_project[00m$ git status'[K
+[?2004lOn branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mlibgit2/[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+[?2004h]0;sunilkumar409@TIGER05994: /c/Users/sunil.chelliboin/desktop/my_project[01;32msunilkumar409@TIGER05994[00m:[01;34m/c/Users/sunil.chelliboin/desktop/my_project[00m$ [7mecho 'My Project' > README[27mecho 'My Project' > README
+[?2004l[?2004h]0;sunilkumar409@TIGER05994: /c/Users/sunil.chelliboin/desktop/my_project[01;32msunilkumar409@TIGER05994[00m:[01;34m/c/Users/sunil.chelliboin/desktop/my_project[00m$ git status
+[?2004lOn branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mREADME[m
+	[31mlibgit2/[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+[?2004h]0;sunilkumar409@TIGER05994: /c/Users/sunil.chelliboin/desktop/my_project[01;32msunilkumar409@TIGER05994[00m:[01;34m/c/Users/sunil.chelliboin/desktop/my_project[00m$ git add README
+[?2004l[?2004h]0;sunilkumar409@TIGER05994: /c/Users/sunil.chelliboin/desktop/my_project[01;32msunilkumar409@TIGER05994[00m:[01;34m/c/Users/sunil.chelliboin/desktop/my_project[00m$ git status
+[?2004lOn branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	[32mnew file:   README[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mlibgit2/[m
+
+[?2004h]0;sunilkumar409@TIGER05994: /c/Users/sunil.chelliboin/desktop/my_project[01;32msunilkumar409@TIGER05994[00m:[01;34m/c/Users/sunil.chelliboin/desktop/my_project[00m$ git status
+[?2004lOn branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	[32mnew file:   README[m
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mdeleted:    README[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mcontributing[m
+	[31mlibgit2/[m
+
+[?2004h]0;sunilkumar409@TIGER05994: /c/Users/sunil.chelliboin/desktop/my_project[01;32msunilkumar409@TIGER05994[00m:[01;34m/c/Users/sunil.chelliboin/desktop/my_project[00m$ git as[Kdd contibuting [K.[K.md
+[?2004lfatal: pathspec 'contibuting.md' did not match any files
+[?2004h]0;sunilkumar409@TIGER05994: /c/Users/sunil.chelliboin/desktop/my_project[01;32msunilkumar409@TIGER05994[00m:[01;34m/c/Users/sunil.chelliboin/desktop/my_project[00m$ git add contibuting.md
+[?2004lfatal: pathspec 'contibuting.md' did not match any files
+[?2004h]0;sunilkumar409@TIGER05994: /c/Users/sunil.chelliboin/desktop/my_project[01;32msunilkumar409@TIGER05994[00m:[01;34m/c/Users/sunil.chelliboin/desktop/my_project[00m$ git status
+[?2004lOn branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	[32mnew file:   README[m
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mdeleted:    README[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mcontributing.md[m
+	[31mlibgit2/[m
+
+[?2004h]0;sunilkumar409@TIGER05994: /c/Users/sunil.chelliboin/desktop/my_project[01;32msunilkumar409@TIGER05994[00m:[01;34m/c/Users/sunil.chelliboin/desktop/my_project[00m$ git add conti[Kributing.md
+[?2004l[?2004h]0;sunilkumar409@TIGER05994: /c/Users/sunil.chelliboin/desktop/my_project[01;32msunilkumar409@TIGER05994[00m:[01;34m/c/Users/sunil.chelliboin/desktop/my_project[00m$ git add[K[K[Kstatus
+[?2004lOn branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	[32mnew file:   README[m
+	[32mnew file:   contributing.md[m
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mdeleted:    README[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mlibgit2/[m
+
+[?2004h]0;sunilkumar409@TIGER05994: /c/Users/sunil.chelliboin/desktop/my_project[01;32msunilkumar409@TIGER05994[00m:[01;34m/c/Users/sunil.chelliboin/desktop/my_project[00m$ cat .gitignore
+[?2004lcat: .gitignore: No such file or directory
+[?2004h]0;sunilkumar409@TIGER05994: /c/Users/sunil.chelliboin/desktop/my_project[01;32msunilkumar409@TIGER05994[00m:[01;34m/c/Users/sunil.chelliboin/desktop/my_project[00m$ git diff
+[?2004l[?1h=[1mdiff --git a/README b/README[m[m
+[1mdeleted file mode 100644[m[m
+[1mindex 56266d3..0000000[m[m
+[1m--- a/README[m[m
+[1m+++ /dev/null[m[m
+[36m@@ -1 +0,0 @@[m[m
+[31m-My Project[m[m
+[K[?1l>[?2004h]0;sunilkumar409@TIGER05994: /c/Users/sunil.chelliboin/desktop/my_project[01;32msunilkumar409@TIGER05994[00m:[01;34m/c/Users/sunil.chelliboin/desktop/my_project[00m$ [7mgit diff --staged[27mgit diff --staged
+[?2004l[?1h=[1mdiff --git a/README b/README[m[m
+[1mnew file mode 100644[m[m
+[1mindex 0000000..56266d3[m[m
+[1m--- /dev/null[m[m
+[1m+++ b/README[m[m
+[36m@@ -0,0 +1 @@[m[m
+[32m+[m[32mMy Project[m[m
+[1mdiff --git a/contributing.md b/contributing.md[m[m
+[1mnew file mode 100644[m[m
+[1mindex 0000000..56266d3[m[m
+[1m--- /dev/null[m[m
+[1m+++ b/contributing.md[m[m
+[36m@@ -0,0 +1 @@[m[m
+[32m+[m[32mMy Project[m[m
+[K[?1l>[?2004h]0;sunilkumar409@TIGER05994: /c/Users/sunil.chelliboin/desktop/my_project[01;32msunilkumar409@TIGER05994[00m:[01;34m/c/Users/sunil.chelliboin/desktop/my_project[00m$ [7mecho '# test line' >> CONTRIBUTING.md[27mecho '# test line' >> CONTRIBUTING.md[C[1P.md[1P.md[1P.md[1P.md[1P.md[1P.md[1P.md[1P.md[1P.md[1P.md[1P.md[1P.mdc.mdo.mdn.mdt.mdr.mdi.mdb.mdu.mdt.mdi.mdn.mdg.md
+[?2004l[?2004h]0;sunilkumar409@TIGER05994: /c/Users/sunil.chelliboin/desktop/my_project[01;32msunilkumar409@TIGER05994[00m:[01;34m/c/Users/sunil.chelliboin/desktop/my_project[00m$ go[Kit sat[K[Ktatus
+[?2004lOn branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	[32mnew file:   README[m
+	[32mnew file:   contributing.md[m
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mdeleted:    README[m
+	[31mmodified:   contributing.md[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mlibgit2/[m
+
+[?2004h]0;sunilkumar409@TIGER05994: /c/Users/sunil.chelliboin/desktop/my_project[01;32msunilkumar409@TIGER05994[00m:[01;34m/c/Users/sunil.chelliboin/desktop/my_project[00m$ git siff
+[?2004lgit: 'siff' is not a git command. See 'git --help'.
+
+The most similar command is
+	diff
+[?2004h]0;sunilkumar409@TIGER05994: /c/Users/sunil.chelliboin/desktop/my_project[01;32msunilkumar409@TIGER05994[00m:[01;34m/c/Users/sunil.chelliboin/desktop/my_project[00m$ git siff
+[?2004lgit: 'siff' is not a git command. See 'git --help'.
+
+The most similar command is
+	diff
+[?2004h]0;sunilkumar409@TIGER05994: /c/Users/sunil.chelliboin/desktop/my_project[01;32msunilkumar409@TIGER05994[00m:[01;34m/c/Users/sunil.chelliboin/desktop/my_project[00m$ git diff
+[?2004l[?1h=[1mdiff --git a/README b/README[m[m
+[1mdeleted file mode 100644[m[m
+[1mindex 56266d3..0000000[m[m
+[1m--- a/README[m[m
+[1m+++ /dev/null[m[m
+[36m@@ -1 +0,0 @@[m[m
+[31m-My Project[m[m
+[1mdiff --git a/contributing.md b/contributing.md[m[m
+[1mindex 56266d3..260cee6 100644[m[m
+[1m--- a/contributing.md[m[m
+[1m+++ b/contributing.md[m[m
+[36m@@ -1 +1,2 @@[m[m
+ My Project[m[m
+[32m+[m[32m# test line[m[m
+[K[?1l>[?2004h]0;sunilkumar409@TIGER05994: /c/Users/sunil.chelliboin/desktop/my_project[01;32msunilkumar409@TIGER05994[00m:[01;34m/c/Users/sunil.chelliboin/desktop/my_project[00m$ rm con[K[K[K[K[K[Kls
+[?2004lcontributing.md  [0m[01;34mlibgit2[0m
+[?2004h]0;sunilkumar409@TIGER05994: /c/Users/sunil.chelliboin/desktop/my_project[01;32msunilkumar409@TIGER05994[00m:[01;34m/c/Users/sunil.chelliboin/desktop/my_project[00m$ r,[Km pRO[K[K[KPROJECTS.MD
+[?2004lrm: cannot remove 'PROJECTS.MD': No such file or directory
+[?2004h]0;sunilkumar409@TIGER05994: /c/Users/sunil.chelliboin/desktop/my_project[01;32msunilkumar409@TIGER05994[00m:[01;34m/c/Users/sunil.chelliboin/desktop/my_project[00m$ rm PROJECTS.MD[K[Kmd
+[?2004lrm: cannot remove 'PROJECTS.md': No such file or directory
+[?2004h]0;sunilkumar409@TIGER05994: /c/Users/sunil.chelliboin/desktop/my_project[01;32msunilkumar409@TIGER05994[00m:[01;34m/c/Users/sunil.chelliboin/desktop/my_project[00m$ git stats[Kus
+[?2004lOn branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	[32mnew file:   README[m
+	[32mnew file:   contributing.md[m
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mdeleted:    README[m
+	[31mmodified:   contributing.md[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mlibgit2/[m
+
+[?2004h]0;sunilkumar409@TIGER05994: /c/Users/sunil.chelliboin/desktop/my_project[01;32msunilkumar409@TIGER05994[00m:[01;34m/c/Users/sunil.chelliboin/desktop/my_project[00m$ [7mgit mv README.md README[27mgit mv README.md README
+[?2004lfatal: bad source, source=README.md, destination=README
+[?2004h]0;sunilkumar409@TIGER05994: /c/Users/sunil.chelliboin/desktop/my_project[01;32msunilkumar409@TIGER05994[00m:[01;34m/c/Users/sunil.chelliboin/desktop/my_project[00m$ git mv README.md README
+[?2004lfatal: bad source, source=README.md, destination=README
+[?2004h]0;sunilkumar409@TIGER05994: /c/Users/sunil.chelliboin/desktop/my_project[01;32msunilkumar409@TIGER05994[00m:[01;34m/c/Users/sunil.chelliboin/desktop/my_project[00m$ git commit
+[?2004lAuthor identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: empty ident name (for <sunilkumar409@TIGER05994.tigeranalytics.local>) not allowed
+[?2004h]0;sunilkumar409@TIGER05994: /c/Users/sunil.chelliboin/desktop/my_project[01;32msunilkumar409@TIGER05994[00m:[01;34m/c/Users/sunil.chelliboin/desktop/my_project[00m$ git config --global sunil.chelliboin@tigeranalyti cs.con[Km
+[?2004l[?2004h]0;sunilkumar409@TIGER05994: /c/Users/sunil.chelliboin/desktop/my_project[01;32msunilkumar409@TIGER05994[00m:[01;34m/c/Users/sunil.chelliboin/desktop/my_project[00m$ git config --global sunil.chelliboin@tigeranalytics.com[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C sunil.chelliboin@tigeranalytics.com[A]0;sunilkumar409@TIGER05994: /c/Users/sunil.chelliboin/desktop/my_project[01;32msunilkumar409@TIGER05994[00m:[01;34m/c/Users/sunil.chelliboin/desktop/my_project[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cu sunil.chelliboin@tigeranalytics.com[A]0;sunilkumar409@TIGER05994: /c/Users/sunil.chelliboin/desktop/my_project[01;32msunilkumar409@TIGER05994[00m:[01;34m/c/Users/sunil.chelliboin/desktop/my_project[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs sunil.chelliboin@tigeranalytics.com[A]0;sunilkumar409@TIGER05994: /c/Users/sunil.chelliboin/desktop/my_project[01;32msunilkumar409@TIGER05994[00m:[01;34m/c/Users/sunil.chelliboin/desktop/my_project[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ce sunil.chelliboin@tigeranalytics.com[A]0;sunilkumar409@TIGER05994: /c/Users/sunil.chelliboin/desktop/my_project[01;32msunilkumar409@TIGER05994[00m:[01;34m/c/Users/sunil.chelliboin/desktop/my_project[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cr sunil.chelliboin@tigeranalytics.com[A]0;sunilkumar409@TIGER05994: /c/Users/sunil.chelliboin/desktop/my_project[01;32msunilkumar409@TIGER05994[00m:[01;34m/c/Users/sunil.chelliboin/desktop/my_project[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C. sunil.chelliboin@tigeranalytics.com[A]0;sunilkumar409@TIGER05994: /c/Users/sunil.chelliboin/desktop/my_project[01;32msunilkumar409@TIGER05994[00m:[01;34m/c/Users/sunil.chelliboin/desktop/my_project[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ce sunil.chelliboin@tigeranalytics.com[A]0;sunilkumar409@TIGER05994: /c/Users/sunil.chelliboin/desktop/my_project[01;32msunilkumar409@TIGER05994[00m:[01;34m/c/Users/sunil.chelliboin/desktop/my_project[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cm sunil.chelliboin@tigeranalytics.com[A]0;sunilkumar409@TIGER05994: /c/Users/sunil.chelliboin/desktop/my_project[01;32msunilkumar409@TIGER05994[00m:[01;34m/c/Users/sunil.chelliboin/desktop/my_project[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ca sunil.chelliboin@tigeranalytics.com[A]0;sunilkumar409@TIGER05994: /c/Users/sunil.chelliboin/desktop/my_project[01;32msunilkumar409@TIGER05994[00m:[01;34m/c/Users/sunil.chelliboin/desktop/my_project[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cl sunil.chelliboin@tigeranalytics.com[A]0;sunilkumar409@TIGER05994: /c/Users/sunil.chelliboin/desktop/my_project[01;32msunilkumar409@TIGER05994[00m:[01;34m/c/Users/sunil.chelliboin/desktop/my_project[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C"sunil.chelliboin@tigeranalytics.com[A]0;sunilkumar409@TIGER05994: /c/Users/sunil.chelliboin/desktop/my_project[01;32msunilkumar409@TIGER05994[00m:[01;34m/c/Users/sunil.chelliboin/desktop/my_project[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C"
+[?2004l[?2004h]0;sunilkumar409@TIGER05994: /c/Users/sunil.chelliboin/desktop/my_project[01;32msunilkumar409@TIGER05994[00m:[01;34m/c/Users/sunil.chelliboin/desktop/my_project[00m$ git config --global user.emal "sunil.chelliboin@tigeranalytics.com"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C "sunil.chelliboin@tig[1Peranalytics.com"[A]0;sunilkumar409@TIGER05994: /c/Users/sunil.chelliboin/desktop/my_project[01;32msunilkumar409@TIGER05994[00m:[01;34m/c/Users/sunil.chelliboin/desktop/my_project[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C "sunil.chelliboin@tige[1Pranalytics.com"[A]0;sunilkumar409@TIGER05994: /c/Users/sunil.chelliboin/desktop/my_project[01;32msunilkumar409@TIGER05994[00m:[01;34m/c/Users/sunil.chelliboin/desktop/my_project[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C "sunil.chelliboin@tiger[1Panalytics.com"[A]0;sunilkumar409@TIGER05994: /c/Users/sunil.chelliboin/desktop/my_project[01;32msunilkumar409@TIGER05994[00m:[01;34m/c/Users/sunil.chelliboin/desktop/my_project[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C "sunil.chelliboin@tigera[1Pnalytics.com"[A]0;sunilkumar409@TIGER05994: /c/Users/sunil.chelliboin/desktop/my_project[01;32msunilkumar409@TIGER05994[00m:[01;34m/c/Users/sunil.chelliboin/desktop/my_project[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cn "sunil.chelliboin@tigeranalytics.com"[A]0;sunilkumar409@TIGER05994: /c/Users/sunil.chelliboin/desktop/my_project[01;32msunilkumar409@TIGER05994[00m:[01;34m/c/Users/sunil.chelliboin/desktop/my_project[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ca "sunil.chelliboin@tigeranalytics.com"[A]0;sunilkumar409@TIGER05994: /c/Users/sunil.chelliboin/desktop/my_project[01;32msunilkumar409@TIGER05994[00m:[01;34m/c/Users/sunil.chelliboin/desktop/my_project[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cm "sunil.chelliboin@tigeranalytics.com"[A]0;sunilkumar409@TIGER05994: /c/Users/sunil.chelliboin/desktop/my_project[01;32msunilkumar409@TIGER05994[00m:[01;34m/c/Users/sunil.chelliboin/desktop/my_project[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ce "sunil.chelliboin@tigeranalytics.com"[A]0;sunilkumar409@TIGER05994: /c/Users/sunil.chelliboin/desktop/my_project[01;32msunilkumar409@TIGER05994[00m:[01;34m/c/Users/sunil.chelliboin/desktop/my_project[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cunil.chelliboin@tig[1Peranalytics.com"[A]0;sunilkumar409@TIGER05994: /c/Users/sunil.chelliboin/desktop/my_project[01;32msunilkumar409@TIGER05994[00m:[01;34m/c/Users/sunil.chelliboin/desktop/my_project[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cnil.chelliboin@tige[1Pranalytics.com"[A]0;sunilkumar409@TIGER05994: /c/Users/sunil.chelliboin/desktop/my_project[01;32msunilkumar409@TIGER05994[00m:[01;34m/c/Users/sunil.chelliboin/desktop/my_project[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cil.chelliboin@tiger[1Panalytics.com"[A]0;sunilkumar409@TIGER05994: /c/Users/sunil.chelliboin/desktop/my_project[01;32msunilkumar409@TIGER05994[00m:[01;34m/c/Users/sunil.chelliboin/desktop/my_project[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cl.chelliboin@tigera[1Pnalytics.com"[A]0;sunilkumar409@TIGER05994: /c/Users/sunil.chelliboin/desktop/my_project[01;32msunilkumar409@TIGER05994[00m:[01;34m/c/Users/sunil.chelliboin/desktop/my_project[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.chelliboin@tigeran[1Palytics.com"[A]0;sunilkumar409@TIGER05994: /c/Users/sunil.chelliboin/desktop/my_project[01;32msunilkumar409@TIGER05994[00m:[01;34m/c/Users/sunil.chelliboin/desktop/my_project[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cchelliboin@tigerana[1Plytics.com"[A]0;sunilkumar409@TIGER05994: /c/Users/sunil.chelliboin/desktop/my_project[01;32msunilkumar409@TIGER05994[00m:[01;34m/c/Users/sunil.chelliboin/desktop/my_project[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Chelliboin@tigeranal[1Pytics.com"[A]0;sunilkumar409@TIGER05994: /c/Users/sunil.chelliboin/desktop/my_project[01;32msunilkumar409@TIGER05994[00m:[01;34m/c/Users/sunil.chelliboin/desktop/my_project[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Celliboin@tigeranaly[1Ptics.com"[A]0;sunilkumar409@TIGER05994: /c/Users/sunil.chelliboin/desktop/my_project[01;32msunilkumar409@TIGER05994[00m:[01;34m/c/Users/sunil.chelliboin/desktop/my_project[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Clliboin@tigeranalyt[1Pics.com"[A]0;sunilkumar409@TIGER05994: /c/Users/sunil.chelliboin/desktop/my_project[01;32msunilkumar409@TIGER05994[00m:[01;34m/c/Users/sunil.chelliboin/desktop/my_project[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ciboin@tigeranalyti[1Pcs.com"[A]0;sunilkumar409@TIGER05994: /c/Users/sunil.chelliboin/desktop/my_project[01;32msunilkumar409@TIGER05994[00m:[01;34m/c/Users/sunil.chelliboin/desktop/my_project[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ciboin@tigeranalytic[1Ps.com"[A]0;sunilkumar409@TIGER05994: /c/Users/sunil.chelliboin/desktop/my_project[01;32msunilkumar409@TIGER05994[00m:[01;34m/c/Users/sunil.chelliboin/desktop/my_project[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cboin@tigeranalytics[1P.com"[A]0;sunilkumar409@TIGER05994: /c/Users/sunil.chelliboin/desktop/my_project[01;32msunilkumar409@TIGER05994[00m:[01;34m/c/Users/sunil.chelliboin/desktop/my_project[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Coin@tigeranalytics.[1Pcom"[A]0;sunilkumar409@TIGER05994: /c/Users/sunil.chelliboin/desktop/my_project[01;32msunilkumar409@TIGER05994[00m:[01;34m/c/Users/sunil.chelliboin/desktop/my_project[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cin@tigeranalytics.c[1Pom"[A]0;sunilkumar409@TIGER05994: /c/Users/sunil.chelliboin/desktop/my_project[01;32msunilkumar409@TIGER05994[00m:[01;34m/c/Users/sunil.chelliboin/desktop/my_project[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cn@tigeranalytics.co[1Pm"[A]0;sunilkumar409@TIGER05994: /c/Users/sunil.chelliboin/desktop/my_project[01;32msunilkumar409@TIGER05994[00m:[01;34m/c/Users/sunil.chelliboin/desktop/my_project[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C@tigeranalytics.com[1P"[A]0;sunilkumar409@TIGER05994: /c/Users/sunil.chelliboin/desktop/my_project[01;32msunilkumar409@TIGER05994[00m:[01;34m/c/Users/sunil.chelliboin/desktop/my_project[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctigeranalytics.com"[K[A]0;sunilkumar409@TIGER05994: /c/Users/sunil.chelliboin/desktop/my_project[01;32msunilkumar409@TIGER05994[00m:[01;34m/c/Users/sunil.chelliboin/desktop/my_project[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cigeranalytics.com" [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pgeranalytics.com"
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Peranalytics.com"[1Pranalytics.com"[1Panalytics.com"[1Pnalytics.com"[1Palytics.com"[1Plytics.com"[1Pytics.com"[1Ptics.com"[1Pics.com"[1Pcs.com"[1Ps.com"[1P.com"[1Pcom"[1Pom"[1Pm"[1P"[7mSunil409-TA[27m"Sunil409-TA"
+[?2004l[?2004h]0;sunilkumar409@TIGER05994: /c/Users/sunil.chelliboin/desktop/my_project[01;32msunilkumar409@TIGER05994[00m:[01;34m/c/Users/sunil.chelliboin/desktop/my_project[00m$ git congig[K[K[Kfig --uer[K[Kser
+[?2004lerror: unknown option `user'
+usage: git config [<options>]
+
+Config file location
+    --[no-]global         use global config file
+    --[no-]system         use system config file
+    --[no-]local          use repository config file
+    --[no-]worktree       use per-worktree config file
+    -f, --[no-]file <file>
+                          use given config file
+    --[no-]blob <blob-id> read config from given blob object
+
+Action
+    --[no-]get            get value: name [value-pattern]
+    --[no-]get-all        get all values: key [value-pattern]
+    --[no-]get-regexp     get values for regexp: name-regex [value-pattern]
+    --[no-]get-urlmatch   get value specific for the URL: section[.var] URL
+    --[no-]replace-all    replace all matching variables: name value [value-pattern]
+    --[no-]add            add a new variable: name value
+    --[no-]unset          remove a variable: name [value-pattern]
+    --[no-]unset-all      remove all matches: name [value-pattern]
+    --[no-]rename-section rename section: old-name new-name
+    --[no-]remove-section remove a section: name
+    -l, --[no-]list       list all
+    --[no-]fixed-value    use string equality when comparing values to 'value-pattern'
+    -e, --[no-]edit       open an editor
+    --[no-]get-color      find the color configured: slot [default]
+    --[no-]get-colorbool  find the color setting: slot [stdout-is-tty]
+
+Type
+    -t, --[no-]type <type>
+                          value is given this type
+    --bool                value is "true" or "false"
+    --int                 value is decimal number
+    --bool-or-int         value is --bool or --int
+    --bool-or-str         value is --bool or string
+    --path                value is a path (file or directory name)
+    --expiry-date         value is an expiry date
+
+Other
+    -z, --[no-]null       terminate values with NUL byte
+    --[no-]name-only      show variable names only
+    --[no-]includes       respect include directives on lookup
+    --[no-]show-origin    show origin of config (file, standard input, blob, command line)
+    --[no-]show-scope     show scope of config (worktree, local, global, system, command)
+    --[no-]default <value>
+                          with --get, use default value when missing entry
+
+[?2004h]0;sunilkumar409@TIGER05994: /c/Users/sunil.chelliboin/desktop/my_project[01;32msunilkumar409@TIGER05994[00m:[01;34m/c/Users/sunil.chelliboin/desktop/my_project[00m$ git checkout -n [K[Kb "new"
+[?2004lSwitched to a new branch 'new'
+[?2004h]0;sunilkumar409@TIGER05994: /c/Users/sunil.chelliboin/desktop/my_project[01;32msunilkumar409@TIGER05994[00m:[01;34m/c/Users/sunil.chelliboin/desktop/my_project[00m$ git status
+[?2004lOn branch new
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	[32mnew file:   README[m
+	[32mnew file:   contributing.md[m
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mdeleted:    README[m
+	[31mdeleted:    contributing.md[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mREADME.md.md[m
+	[31mlibgit2/[m
+
+[?2004h]0;sunilkumar409@TIGER05994: /c/Users/sunil.chelliboin/desktop/my_project[01;32msunilkumar409@TIGER05994[00m:[01;34m/c/Users/sunil.chelliboin/desktop/my_project[00m$ git check out [K[K[K[K[Kout master
+[?2004lerror: pathspec 'master' did not match any file(s) known to git
+[?2004h]0;sunilkumar409@TIGER05994: /c/Users/sunil.chelliboin/desktop/my_project[01;32msunilkumar409@TIGER05994[00m:[01;34m/c/Users/sunil.chelliboin/desktop/my_project[00m$ git chec[Kckout main
+[?2004lerror: pathspec 'main' did not match any file(s) known to git
+[?2004h]0;sunilkumar409@TIGER05994: /c/Users/sunil.chelliboin/desktop/my_project[01;32msunilkumar409@TIGER05994[00m:[01;34m/c/Users/sunil.chelliboin/desktop/my_project[00m$ git checkout main[C-mainbmain main"main[C[C[C[C"
+[?2004lSwitched to a new branch 'main'
+[?2004h]0;sunilkumar409@TIGER05994: /c/Users/sunil.chelliboin/desktop/my_project[01;32msunilkumar409@TIGER05994[00m:[01;34m/c/Users/sunil.chelliboin/desktop/my_project[00m$ git status
+[?2004lOn branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	[32mnew file:   README[m
+	[32mnew file:   contributing.md[m
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mdeleted:    README[m
+	[31mdeleted:    contributing.md[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mREADME.md.md[m
+	[31mlibgit2/[m
+
+[?2004h]0;sunilkumar409@TIGER05994: /c/Users/sunil.chelliboin/desktop/my_project[01;32msunilkumar409@TIGER05994[00m:[01;34m/c/Users/sunil.chelliboin/desktop/my_project[00m$ [7mgit checkout master[27mgit checkout master
+[?2004lerror: pathspec 'master' did not match any file(s) known to git
+[?2004h]0;sunilkumar409@TIGER05994: /c/Users/sunil.chelliboin/desktop/my_project[01;32msunilkumar409@TIGER05994[00m:[01;34m/c/Users/sunil.chelliboin/desktop/my_project[00m$ exit[K[K[K[Kcd ..
+[?2004l[?2004h]0;sunilkumar409@TIGER05994: /c/Users/sunil.chelliboin/desktop[01;32msunilkumar409@TIGER05994[00m:[01;34m/c/Users/sunil.chelliboin/desktop[00m$ exit
+[?2004lexit
+
+Script done on 2025-01-06 06:44:23+00:00 [COMMAND_EXIT_CODE="0"]

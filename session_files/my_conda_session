@@ -1,0 +1,240 @@
+Script started on 2025-01-07 09:07:46+00:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="120" LINES="30"]
+[?2004h(base) ]0;sunilkumar409@TIGER05994: /c/users/sunil.chelliboin/desktop[01;32msunilkumar409@TIGER05994[00m:[01;34m/c/users/sunil.chelliboin/desktop[00m$ conda --version
+[?2004lconda 4.10.3
+[?2004h(base) ]0;sunilkumar409@TIGER05994: /c/users/sunil.chelliboin/desktop[01;32msunilkumar409@TIGER05994[00m:[01;34m/c/users/sunil.chelliboin/desktop[00m$ [7mconda create -n myenv[27mconda create -n myenv
+[?2004lWARNING: A conda environment already exists at '/home/sunilkumar409/miniforge3/envs/myenv'
+Remove existing environment (y/[n])? y
+
+Collecting package metadata (current_repodata.json): - done
+Solving environment: | done
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 4.10.3
+  latest version: 24.11.2
+
+Please update conda by running
+
+    $ conda update -n base conda
+
+
+
+## Package Plan ##
+
+  environment location: /home/sunilkumar409/miniforge3/envs/myenv
+
+
+
+Proceed ([y]/n)? y
+
+Preparing transaction: - done
+Verifying transaction: | done
+Executing transaction: - done
+#
+# To activate this environment, use
+#
+#     $ conda activate myenv
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+[?2004h(base) ]0;sunilkumar409@TIGER05994: /c/users/sunil.chelliboin/desktop[01;32msunilkumar409@TIGER05994[00m:[01;34m/c/users/sunil.chelliboin/desktop[00m$ conda activate myenv
+[?2004l[?2004h(myenv) ]0;sunilkumar409@TIGER05994: /c/users/sunil.chelliboin/desktop[01;32msunilkumar409@TIGER05994[00m:[01;34m/c/users/sunil.chelliboin/desktop[00m$ conda install python
+[?2004lCollecting package metadata (current_repodata.json): - \ | / - \ | / - \ | / - \ | / - \ done
+Solving environment: / - \ | / - done
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 4.10.3
+  latest version: 24.11.2
+
+Please update conda by running
+
+    $ conda update -n base conda
+
+
+
+## Package Plan ##
+
+  environment location: /home/sunilkumar409/miniforge3/envs/myenv
+
+  added / updated specs:
+    - python
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    _openmp_mutex-4.5          |            2_gnu          23 KB  conda-forge
+    bzip2-1.0.8                |       h4bc722e_7         247 KB  conda-forge
+    ca-certificates-2024.12.14 |       hbcca054_0         153 KB  conda-forge
+    ld_impl_linux-64-2.43      |       h712a8e2_2         654 KB  conda-forge
+    libexpat-2.6.4             |       h5888daf_0          72 KB  conda-forge
+    libffi-3.4.2               |       h7f98852_5          57 KB  conda-forge
+    libgcc-14.2.0              |       h77fa898_1         829 KB  conda-forge
+    libgcc-ng-14.2.0           |       h69a702a_1          53 KB  conda-forge
+    libgomp-14.2.0             |       h77fa898_1         450 KB  conda-forge
+    liblzma-5.6.3              |       hb9d3cd8_1         109 KB  conda-forge
+    libmpdec-4.0.0             |       h4bc722e_0          88 KB  conda-forge
+    libsqlite-3.47.2           |       hee588c1_0         853 KB  conda-forge
+    libuuid-2.38.1             |       h0b41bf4_0          33 KB  conda-forge
+    libzlib-1.3.1              |       hb9d3cd8_2          60 KB  conda-forge
+    ncurses-6.5                |       he02047a_1         868 KB  conda-forge
+    openssl-3.4.0              |       h7b32b05_1         2.8 MB  conda-forge
+    pip-24.3.1                 |     pyh145f28c_2         1.2 MB  conda-forge
+    python-3.13.1              |ha99a958_102_cp313        31.7 MB  conda-forge
+    python_abi-3.13            |          5_cp313           6 KB  conda-forge
+    readline-8.2               |       h8228510_1         275 KB  conda-forge
+    tk-8.6.13                  |noxft_h4845f30_101         3.2 MB  conda-forge
+    tzdata-2024b               |       hc8b5060_0         119 KB  conda-forge
+    ------------------------------------------------------------
+                                           Total:        43.7 MB
+
+The following NEW packages will be INSTALLED:
+
+  _libgcc_mutex      conda-forge/linux-64::_libgcc_mutex-0.1-conda_forge
+  _openmp_mutex      conda-forge/linux-64::_openmp_mutex-4.5-2_gnu
+  bzip2              conda-forge/linux-64::bzip2-1.0.8-h4bc722e_7
+  ca-certificates    conda-forge/linux-64::ca-certificates-2024.12.14-hbcca054_0
+  ld_impl_linux-64   conda-forge/linux-64::ld_impl_linux-64-2.43-h712a8e2_2
+  libexpat           conda-forge/linux-64::libexpat-2.6.4-h5888daf_0
+  libffi             conda-forge/linux-64::libffi-3.4.2-h7f98852_5
+  libgcc             conda-forge/linux-64::libgcc-14.2.0-h77fa898_1
+  libgcc-ng          conda-forge/linux-64::libgcc-ng-14.2.0-h69a702a_1
+  libgomp            conda-forge/linux-64::libgomp-14.2.0-h77fa898_1
+  liblzma            conda-forge/linux-64::liblzma-5.6.3-hb9d3cd8_1
+  libmpdec           conda-forge/linux-64::libmpdec-4.0.0-h4bc722e_0
+  libsqlite          conda-forge/linux-64::libsqlite-3.47.2-hee588c1_0
+  libuuid            conda-forge/linux-64::libuuid-2.38.1-h0b41bf4_0
+  libzlib            conda-forge/linux-64::libzlib-1.3.1-hb9d3cd8_2
+  ncurses            conda-forge/linux-64::ncurses-6.5-he02047a_1
+  openssl            conda-forge/linux-64::openssl-3.4.0-h7b32b05_1
+  pip                conda-forge/noarch::pip-24.3.1-pyh145f28c_2
+  python             conda-forge/linux-64::python-3.13.1-ha99a958_102_cp313
+  python_abi         conda-forge/linux-64::python_abi-3.13-5_cp313
+  readline           conda-forge/linux-64::readline-8.2-h8228510_1
+  tk                 conda-forge/linux-64::tk-8.6.13-noxft_h4845f30_101
+  tzdata             conda-forge/noarch::tzdata-2024b-hc8b5060_0
+
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages
+pip-24.3.1           | 1.2 MB    |                                                                               |   0% pip-24.3.1           | 1.2 MB    | #                                                                             |   1% pip-24.3.1           | 1.2 MB    | ########1                                                                     |  11% pip-24.3.1           | 1.2 MB    | ##############################################################9               |  82% pip-24.3.1           | 1.2 MB    | ############################################################################# | 100% 
+python_abi-3.13      | 6 KB      |                                                                               |   0% python_abi-3.13      | 6 KB      | ############################################################################# | 100% python_abi-3.13      | 6 KB      | ############################################################################# | 100% 
+python-3.13.1        | 31.7 MB   |                                                                               |   0% python-3.13.1        | 31.7 MB   | #                                                                             |   1% python-3.13.1        | 31.7 MB   | ###9                                                                          |   5% python-3.13.1        | 31.7 MB   | ######2                                                                       |   8% python-3.13.1        | 31.7 MB   | #########5                                                                    |  12% python-3.13.1        | 31.7 MB   | ###########9                                                                  |  16% python-3.13.1        | 31.7 MB   | ###############8                                                              |  21% python-3.13.1        | 31.7 MB   | ##################8                                                           |  24% python-3.13.1        | 31.7 MB   | #####################6                                                        |  28% python-3.13.1        | 31.7 MB   | ########################3                                                     |  32% python-3.13.1        | 31.7 MB   | ###########################                                                   |  35% python-3.13.1        | 31.7 MB   | #############################6                                                |  38% python-3.13.1        | 31.7 MB   | ################################1                                             |  42% python-3.13.1        | 31.7 MB   | ###################################9                                          |  47% python-3.13.1        | 31.7 MB   | ######################################8                                       |  50% python-3.13.1        | 31.7 MB   | ##########################################6                                   |  55% python-3.13.1        | 31.7 MB   | #############################################9                                |  60% python-3.13.1        | 31.7 MB   | ################################################8                             |  63% python-3.13.1        | 31.7 MB   | ###################################################7                          |  67% python-3.13.1        | 31.7 MB   | ######################################################6                       |  71% python-3.13.1        | 31.7 MB   | #########################################################2                    |  74% python-3.13.1        | 31.7 MB   | ###########################################################8                  |  78% python-3.13.1        | 31.7 MB   | ##############################################################7               |  82% python-3.13.1        | 31.7 MB   | #################################################################8            |  86% python-3.13.1        | 31.7 MB   | ####################################################################2         |  89% python-3.13.1        | 31.7 MB   | ######################################################################9       |  92% python-3.13.1        | 31.7 MB   | #########################################################################7    |  96% python-3.13.1        | 31.7 MB   | ############################################################################3 |  99% python-3.13.1        | 31.7 MB   | ############################################################################# | 100% 
+libzlib-1.3.1        | 60 KB     |                                                                               |   0% libzlib-1.3.1        | 60 KB     | ############################################################################# | 100% libzlib-1.3.1        | 60 KB     | ############################################################################# | 100% 
+tk-8.6.13            | 3.2 MB    |                                                                               |   0% tk-8.6.13            | 3.2 MB    | ############1                                                                 |  16% tk-8.6.13            | 3.2 MB    | ####################################4                                         |  47% tk-8.6.13            | 3.2 MB    | ##################################################################5           |  86% tk-8.6.13            | 3.2 MB    | ############################################################################# | 100% 
+libgcc-ng-14.2.0     | 53 KB     |                                                                               |   0% libgcc-ng-14.2.0     | 53 KB     | ############################################################################# | 100% libgcc-ng-14.2.0     | 53 KB     | ############################################################################# | 100% 
+liblzma-5.6.3        | 109 KB    |                                                                               |   0% liblzma-5.6.3        | 109 KB    | ############################################################################# | 100% liblzma-5.6.3        | 109 KB    | ############################################################################# | 100% 
+ca-certificates-2024 | 153 KB    |                                                                               |   0% ca-certificates-2024 | 153 KB    | ############################################################################# | 100% ca-certificates-2024 | 153 KB    | ############################################################################# | 100% 
+libexpat-2.6.4       | 72 KB     |                                                                               |   0% libexpat-2.6.4       | 72 KB     | ############################################################################# | 100% libexpat-2.6.4       | 72 KB     | ############################################################################# | 100% 
+libuuid-2.38.1       | 33 KB     |                                                                               |   0% libuuid-2.38.1       | 33 KB     | ############################################################################# | 100% libuuid-2.38.1       | 33 KB     | ############################################################################# | 100% 
+libgcc-14.2.0        | 829 KB    |                                                                               |   0% libgcc-14.2.0        | 829 KB    | #########################################6                                    |  54% libgcc-14.2.0        | 829 KB    | ############################################################################# | 100% 
+tzdata-2024b         | 119 KB    |                                                                               |   0% tzdata-2024b         | 119 KB    | ############################################################################# | 100% tzdata-2024b         | 119 KB    | ############################################################################# | 100% 
+libgomp-14.2.0       | 450 KB    |                                                                               |   0% libgomp-14.2.0       | 450 KB    | #################################################2                            |  64% libgomp-14.2.0       | 450 KB    | ############################################################################# | 100% 
+_openmp_mutex-4.5    | 23 KB     |                                                                               |   0% _openmp_mutex-4.5    | 23 KB     | ############################################################################# | 100% 
+libmpdec-4.0.0       | 88 KB     |                                                                               |   0% libmpdec-4.0.0       | 88 KB     | ############################################################################# | 100% libmpdec-4.0.0       | 88 KB     | ############################################################################# | 100% 
+libffi-3.4.2         | 57 KB     |                                                                               |   0% libffi-3.4.2         | 57 KB     | ############################################################################# | 100% libffi-3.4.2         | 57 KB     | ############################################################################# | 100% 
+readline-8.2         | 275 KB    |                                                                               |   0% readline-8.2         | 275 KB    | ############################################################################# | 100% readline-8.2         | 275 KB    | ############################################################################# | 100% 
+bzip2-1.0.8          | 247 KB    |                                                                               |   0% bzip2-1.0.8          | 247 KB    | ############################################################################# | 100% bzip2-1.0.8          | 247 KB    | ############################################################################# | 100% 
+ncurses-6.5          | 868 KB    |                                                                               |   0% ncurses-6.5          | 868 KB    | #4                                                                            |   2% ncurses-6.5          | 868 KB    | ############################################################################# | 100% ncurses-6.5          | 868 KB    | ############################################################################# | 100% 
+openssl-3.4.0        | 2.8 MB    |                                                                               |   0% openssl-3.4.0        | 2.8 MB    | ##############1                                                               |  18% openssl-3.4.0        | 2.8 MB    | #########################################2                                    |  54% openssl-3.4.0        | 2.8 MB    | ############################################################################# | 100% openssl-3.4.0        | 2.8 MB    | ############################################################################# | 100% 
+ld_impl_linux-64-2.4 | 654 KB    |                                                                               |   0% ld_impl_linux-64-2.4 | 654 KB    | #8                                                                            |   2% ld_impl_linux-64-2.4 | 654 KB    | ################################################################              |  83% ld_impl_linux-64-2.4 | 654 KB    | ############################################################################# | 100% 
+libsqlite-3.47.2     | 853 KB    |                                                                               |   0% libsqlite-3.47.2     | 853 KB    | ############################################7                                 |  58% libsqlite-3.47.2     | 853 KB    | ############################################################################# | 100% 
+Preparing transaction: | / - done
+Verifying transaction: | / - \ | / - \ | / - done
+Executing transaction: | / - \ | / - \ | / - \ | / - done
+[?2004h(myenv) ]0;sunilkumar409@TIGER05994: /c/users/sunil.chelliboin/desktop[01;32msunilkumar409@TIGER05994[00m:[01;34m/c/users/sunil.chelliboin/desktop[00m$ cona [K[Kda install pandas
+[?2004lCollecting package metadata (current_repodata.json): - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - done
+Solving environment: | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / done
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 4.10.3
+  latest version: 24.11.2
+
+Please update conda by running
+
+    $ conda update -n base conda
+
+
+
+## Package Plan ##
+
+  environment location: /home/sunilkumar409/miniforge3/envs/myenv
+
+  added / updated specs:
+    - pandas
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    libblas-3.9.0              |26_linux64_openblas          16 KB  conda-forge
+    libcblas-3.9.0             |26_linux64_openblas          16 KB  conda-forge
+    libgfortran-14.2.0         |       h69a702a_1          53 KB  conda-forge
+    libgfortran5-14.2.0        |       hd5240d6_1         1.4 MB  conda-forge
+    liblapack-3.9.0            |26_linux64_openblas          16 KB  conda-forge
+    libopenblas-0.3.28         |pthreads_h94d23a6_1         5.3 MB  conda-forge
+    libstdcxx-14.2.0           |       hc0a3c3a_1         3.7 MB  conda-forge
+    numpy-2.2.1                |  py313hb30382a_0         8.1 MB  conda-forge
+    pandas-2.2.3               |  py313ha87cce1_1        14.7 MB  conda-forge
+    python-dateutil-2.9.0.post0|     pyhff2d567_1         217 KB  conda-forge
+    python-tzdata-2024.2       |     pyhd8ed1ab_1         139 KB  conda-forge
+    pytz-2024.1                |     pyhd8ed1ab_0         184 KB  conda-forge
+    six-1.17.0                 |     pyhd8ed1ab_0          16 KB  conda-forge
+    ------------------------------------------------------------
+                                           Total:        33.8 MB
+
+The following NEW packages will be INSTALLED:
+
+  libblas            conda-forge/linux-64::libblas-3.9.0-26_linux64_openblas
+  libcblas           conda-forge/linux-64::libcblas-3.9.0-26_linux64_openblas
+  libgfortran        conda-forge/linux-64::libgfortran-14.2.0-h69a702a_1
+  libgfortran5       conda-forge/linux-64::libgfortran5-14.2.0-hd5240d6_1
+  liblapack          conda-forge/linux-64::liblapack-3.9.0-26_linux64_openblas
+  libopenblas        conda-forge/linux-64::libopenblas-0.3.28-pthreads_h94d23a6_1
+  libstdcxx          conda-forge/linux-64::libstdcxx-14.2.0-hc0a3c3a_1
+  numpy              conda-forge/linux-64::numpy-2.2.1-py313hb30382a_0
+  pandas             conda-forge/linux-64::pandas-2.2.3-py313ha87cce1_1
+  python-dateutil    conda-forge/noarch::python-dateutil-2.9.0.post0-pyhff2d567_1
+  python-tzdata      conda-forge/noarch::python-tzdata-2024.2-pyhd8ed1ab_1
+  pytz               conda-forge/noarch::pytz-2024.1-pyhd8ed1ab_0
+  six                conda-forge/noarch::six-1.17.0-pyhd8ed1ab_0
+
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages
+libopenblas-0.3.28   | 5.3 MB    |                                                                               |   0% libopenblas-0.3.28   | 5.3 MB    | 2                                                                             |   0% libopenblas-0.3.28   | 5.3 MB    | ######1                                                                       |   8% libopenblas-0.3.28   | 5.3 MB    | ##############6                                                               |  19% libopenblas-0.3.28   | 5.3 MB    | #########################################3                                    |  54% libopenblas-0.3.28   | 5.3 MB    | ########################################################                      |  73% libopenblas-0.3.28   | 5.3 MB    | #####################################################################8        |  91% libopenblas-0.3.28   | 5.3 MB    | ############################################################################# | 100% 
+python-dateutil-2.9. | 217 KB    |                                                                               |   0% python-dateutil-2.9. | 217 KB    | ###################################################                           |  66% python-dateutil-2.9. | 217 KB    | ############################################################################# | 100% 
+python-tzdata-2024.2 | 139 KB    |                                                                               |   0% python-tzdata-2024.2 | 139 KB    | ############################################################################# | 100% python-tzdata-2024.2 | 139 KB    | ############################################################################# | 100% 
+liblapack-3.9.0      | 16 KB     |                                                                               |   0% liblapack-3.9.0      | 16 KB     | ############################################################################# | 100% liblapack-3.9.0      | 16 KB     | ############################################################################# | 100% 
+pandas-2.2.3         | 14.7 MB   |                                                                               |   0% pandas-2.2.3         | 14.7 MB   |                                                                               |   0% pandas-2.2.3         | 14.7 MB   | ######1                                                                       |   8% pandas-2.2.3         | 14.7 MB   | ##########2                                                                   |  13% pandas-2.2.3         | 14.7 MB   | #################1                                                            |  22% pandas-2.2.3         | 14.7 MB   | #########################8                                                    |  34% pandas-2.2.3         | 14.7 MB   | #################################1                                            |  43% pandas-2.2.3         | 14.7 MB   | #######################################5                                      |  51% pandas-2.2.3         | 14.7 MB   | ##############################################5                               |  61% pandas-2.2.3         | 14.7 MB   | ####################################################8                         |  69% pandas-2.2.3         | 14.7 MB   | ##########################################################7                   |  76% pandas-2.2.3         | 14.7 MB   | ##################################################################            |  86% pandas-2.2.3         | 14.7 MB   | ########################################################################3     |  94% pandas-2.2.3         | 14.7 MB   | ############################################################################# | 100% 
+pytz-2024.1          | 184 KB    |                                                                               |   0% pytz-2024.1          | 184 KB    | #########################################################################6    |  96% pytz-2024.1          | 184 KB    | ############################################################################# | 100% 
+libgfortran5-14.2.0  | 1.4 MB    |                                                                               |   0% libgfortran5-14.2.0  | 1.4 MB    | ##########3                                                                   |  13% libgfortran5-14.2.0  | 1.4 MB    | ############################################################################# | 100% libgfortran5-14.2.0  | 1.4 MB    | ############################################################################# | 100% 
+libcblas-3.9.0       | 16 KB     |                                                                               |   0% libcblas-3.9.0       | 16 KB     | ############################################################################# | 100% libcblas-3.9.0       | 16 KB     | ############################################################################# | 100% 
+libblas-3.9.0        | 16 KB     |                                                                               |   0% libblas-3.9.0        | 16 KB     | ############################################################################# | 100% libblas-3.9.0        | 16 KB     | ############################################################################# | 100% 
+libstdcxx-14.2.0     | 3.7 MB    |                                                                               |   0% libstdcxx-14.2.0     | 3.7 MB    | #######1                                                                      |   9% libstdcxx-14.2.0     | 3.7 MB    | ##############################4                                               |  40% libstdcxx-14.2.0     | 3.7 MB    | ##############################################9                               |  61% libstdcxx-14.2.0     | 3.7 MB    | ############################################################################# | 100% libstdcxx-14.2.0     | 3.7 MB    | ############################################################################# | 100% 
+six-1.17.0           | 16 KB     |                                                                               |   0% six-1.17.0           | 16 KB     | ############################################################################# | 100% six-1.17.0           | 16 KB     | ############################################################################# | 100% 
+numpy-2.2.1          | 8.1 MB    |                                                                               |   0% numpy-2.2.1          | 8.1 MB    | #                                                                             |   1% numpy-2.2.1          | 8.1 MB    | ###########3                                                                  |  15% numpy-2.2.1          | 8.1 MB    | ######################3                                                       |  29% numpy-2.2.1          | 8.1 MB    | ##############################8                                               |  40% numpy-2.2.1          | 8.1 MB    | ############################################1                                 |  57% numpy-2.2.1          | 8.1 MB    | ######################################################3                       |  71% numpy-2.2.1          | 8.1 MB    | ###################################################################4          |  88% numpy-2.2.1          | 8.1 MB    | ############################################################################# | 100% 
+libgfortran-14.2.0   | 53 KB     |                                                                               |   0% libgfortran-14.2.0   | 53 KB     | ############################################################################# | 100% libgfortran-14.2.0   | 53 KB     | ############################################################################# | 100% 
+Preparing transaction: \ | / done
+Verifying transaction: \ | / - done
+Executing transaction: | / - \ | / - \ | done
+[?2004h(myenv) ]0;sunilkumar409@TIGER05994: /c/users/sunil.chelliboin/desktop[01;32msunilkumar409@TIGER05994[00m:[01;34m/c/users/sunil.chelliboin/desktop[00m$ conda deativate
+[?2004l
+CommandNotFoundError: No command 'conda deativate'.
+Did you mean 'conda deactivate'?
+
+[?2004h(myenv) ]0;sunilkumar409@TIGER05994: /c/users/sunil.chelliboin/desktop[01;32msunilkumar409@TIGER05994[00m:[01;34m/c/users/sunil.chelliboin/desktop[00m$ conda deacti[K[Ktivate
+[?2004l[?2004h(base) ]0;sunilkumar409@TIGER05994: /c/users/sunil.chelliboin/desktop[01;32msunilkumar409@TIGER05994[00m:[01;34m/c/users/sunil.chelliboin/desktop[00m$ exit
+[?2004lexit
+
+Script done on 2025-01-07 09:10:32+00:00 [COMMAND_EXIT_CODE="0"]
